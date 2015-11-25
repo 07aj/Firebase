@@ -15,7 +15,7 @@ import java.util.HashMap;
  * Created by Ashu on 24/11/15.
  */
 public class MessageDataSource {
-    private static final Firebase sRef = new Firebase("https://chatmadi.firebaseio.com/");
+    private static final Firebase sRef = new Firebase("YOUR FIREBASE URL");
     private static SimpleDateFormat sDateFormat = new SimpleDateFormat("yyyyMMddmmss");
     private static final String TAG = "MessageDataSource";
     private static final String COLUMN_TEXT = "text";
